@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "service": "remix dev",
+    "typecheck": "tsc",
+    "lint": "eslint --fix app --ext .ts,.js,.tsx"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.11.0",
+    "@remix-run/react": "^1.11.0",
+    "@remix-run/vercel": "^1.11.0",
+    "@vercel/node": "^2.8.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swiper": "^8.4.6"
+  },
+  "devDependencies": {
+    "@fontsource/nunito": "^4.5.12",
+    "@fontsource/nunito-sans": "^4.5.10",
+    "@remix-run/dev": "^1.11.0",
+    "@remix-run/eslint-config": "^1.11.0",
+    "@remix-run/serve": "^1.11.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
