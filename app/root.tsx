@@ -8,6 +8,7 @@ import {
   ScrollRestoration
 } from '@remix-run/react'
 
+import remixImageStyles from 'remix-image/remix-image.css'
 import swiperBundle from 'swiper/swiper-bundle.css'
 import swiperCss from 'swiper/swiper.min.css'
 
@@ -24,54 +25,19 @@ import NunitoSans700 from '@fontsource/nunito-sans/700.css'
 import globalStyles from './styles/global.css'
 
 export const links: LinksFunction = () => [
-  {
-    rel: 'stylesheet',
-    href: swiperBundle
-  },
-  {
-    rel: 'stylesheet',
-    href: swiperCss
-  },
-  {
-    rel: 'stylesheet',
-    href: globalStyles
-  },
-  {
-    rel: 'stylesheet',
-    href: Nunito300
-  },
-  {
-    rel: 'stylesheet',
-    href: Nunito400
-  },
-  {
-    rel: 'stylesheet',
-    href: Nunito500
-  },
-  {
-    rel: 'stylesheet',
-    href: Nunito600
-  },
-  {
-    rel: 'stylesheet',
-    href: Nunito700
-  },
-  {
-    rel: 'stylesheet',
-    href: NunitoSans300
-  },
-  {
-    rel: 'stylesheet',
-    href: NunitoSans400
-  },
-  {
-    rel: 'stylesheet',
-    href: NunitoSans600
-  },
-  {
-    rel: 'stylesheet',
-    href: NunitoSans700
-  }
+  { rel: 'stylesheet', href: remixImageStyles },
+  { rel: 'stylesheet', href: swiperBundle },
+  { rel: 'stylesheet', href: swiperCss },
+  { rel: 'stylesheet', href: globalStyles },
+  { rel: 'stylesheet', href: Nunito300 },
+  { rel: 'stylesheet', href: Nunito400 },
+  { rel: 'stylesheet', href: Nunito500 },
+  { rel: 'stylesheet', href: Nunito600 },
+  { rel: 'stylesheet', href: Nunito700 },
+  { rel: 'stylesheet', href: NunitoSans300 },
+  { rel: 'stylesheet', href: NunitoSans400 },
+  { rel: 'stylesheet', href: NunitoSans600 },
+  { rel: 'stylesheet', href: NunitoSans700 }
 ]
 
 export const meta: MetaFunction = () => ({

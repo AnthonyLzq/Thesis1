@@ -1,5 +1,6 @@
 import { Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Presentation } from '~/components'
 
 const App = () => {
   return (
@@ -11,7 +12,9 @@ const App = () => {
       modules={[Pagination]}
       className='mySwiper'
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
+      <SwiperSlide>
+        <Presentation />
+      </SwiperSlide>
       <SwiperSlide>Slide 2</SwiperSlide>
       <SwiperSlide>Slide 3</SwiperSlide>
       <SwiperSlide>Slide 4</SwiperSlide>
