@@ -61,6 +61,18 @@ p.date {
   width: 60%;
 }
 
+@media screen and (max-width: 768px) {
+  .title {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    width: 90%;
+  }
+}
+
 /* .swiper-slide img {
   display: block;
   width: 100%;

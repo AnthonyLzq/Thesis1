@@ -1,6 +1,5 @@
 import { Image } from 'remix-image'
 
-// TODO: add date of presentation
 const Presentation = () => {
   return (
     <main>
@@ -11,7 +10,18 @@ const Presentation = () => {
       </h1>
       <Image
         src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/uni_logo.png?alt=media'
-        responsive={[{ maxWidth: 1560, size: { width: 400, height: 532 } }]}
+        responsive={[
+          { size: { width: 400, height: 532 } },
+          { maxWidth: 1720, size: { width: 360, height: 480 } },
+          { maxWidth: 1560, size: { width: 320, height: 424 } },
+          { maxWidth: 1440, size: { width: 300, height: 400 } },
+          { maxWidth: 1260, size: { width: 240, height: 320 } },
+          { maxWidth: 1080, size: { width: 220, height: 292 } },
+          { maxWidth: 900, size: { width: 200, height: 264 } },
+          { maxWidth: 840, size: { width: 180, height: 240 } },
+          { maxWidth: 720, size: { width: 160, height: 212 } }
+        ]}
+        style={{ minWidth: 'auto', minHeight: 'auto' }}
       />
       <p>Steve Anthony Luzquiños Agama</p>
       <p className='date'>
