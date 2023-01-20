@@ -42,8 +42,24 @@ export const links: LinksFunction = () => [
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
-  title: 'Tesis 1 - Anthony Luzquiños',
-  viewport: 'width=device-width,initial-scale=1'
+  title: 'Tesis I - Anthony Luzquiños',
+  viewport: 'width=device-width,initial-scale=1',
+  keywords:
+    'Tesis, Seminario, IoT, Reconocimiento Facial, MQTT, Thesis, Seminar, Facial Recognition',
+  description:
+    'Seminario de Tesis I: Reconocimiento de Rostros en Tiempo Real y Comunicación usando protocolos IoT',
+  'og:type': 'website',
+  'og:url': 'https://thesis1.anthonylzq.dev',
+  'og:title': 'Tesis I',
+  'og:description':
+    'Seminario de Tesis I: Reconocimiento de Rostros en Tiempo Real y Comunicación usando protocolos IoT',
+  'og:locale': 'es_ES',
+  'twitter:card': 'summary_large_image',
+  'twitter:creator': '@AnthonyLzq',
+  'twitter:url': 'https://thesis1.anthonylzq.dev',
+  'twitter:title': 'Tesis I - Anthony Luzquiños',
+  'twitter:description':
+    'Seminario de Tesis I: Reconocimiento de Rostros en Tiempo Real y Comunicación usando protocolos IoT'
 })
 
 export default function App() {
