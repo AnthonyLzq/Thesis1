@@ -19,7 +19,8 @@ const Presentation = () => {
           { maxWidth: 1080, size: { width: 220, height: 292 } },
           { maxWidth: 900, size: { width: 200, height: 264 } },
           { maxWidth: 840, size: { width: 180, height: 240 } },
-          { maxWidth: 720, size: { width: 160, height: 212 } }
+          { maxWidth: 720, size: { width: 160, height: 212 } },
+          { maxWidth: 600, size: { width: 120, height: 160 } }
         ]}
         style={{ minWidth: 'auto', minHeight: 'auto' }}
       />

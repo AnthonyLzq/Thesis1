@@ -9,6 +9,8 @@ main.introduction h1 {
 
 main.introduction p {
   width: var(--width-60);
+  max-height: 72vh;
+  overflow-y: scroll;
 }
 
 main.introduction p {
@@ -24,6 +26,7 @@ main.introduction p {
   }
 
   main.introduction p {
+    max-height: 64vh;
     width: var(--width-80);
   }
 }
