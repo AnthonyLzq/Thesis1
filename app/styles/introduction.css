@@ -1,5 +1,4 @@
 main.introduction {
-  margin-top: -4em;
   text-align: start;
 }
 
@@ -10,7 +9,7 @@ main.introduction h1 {
 main.introduction p {
   width: var(--width-60);
   max-height: 72vh;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 main.introduction p {

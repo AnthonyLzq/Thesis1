@@ -1,0 +1,67 @@
+main.previous-knowledge {
+  text-align: start;
+}
+
+main.previous-knowledge section {
+  max-height: 80vh;
+  overflow-y: auto;
+  display: grid;
+  place-items: center;
+  text-align: start;
+}
+
+main.previous-knowledge h1, h2, p {
+  width: var(--width-60);
+}
+
+main.previous-knowledge p {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 0;
+}
+
+main.previous-knowledge ol {
+  display: grid;
+  gap: 1.5em;
+}
+
+main.previous-knowledge ol li {
+  width: 96%;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+main.previous-knowledge ol li:before {
+  content: counter(item);
+  margin-right: 5px;
+  font-size: var(--width-80);
+  background-color: #222;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+main.previous-knowledge ol li figure {
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (max-width: 1080px) {
+  main.previous-knowledge section {
+    max-height: 64vh;
+    overflow-y: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main.previous-knowledge h1, h2, p {
+    width: var(--width-80);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main.previous-knowledge h1, h2, p {
+    width: var(--width-90);
+  }
+}

@@ -30,6 +30,11 @@ p {
   font-size: 1.4em;
 }
 
+img {
+  min-width: auto !important;
+  min-height: auto !important;
+}
+
 p.date {
   font-size: 1.2em;
   font-weight: 300;

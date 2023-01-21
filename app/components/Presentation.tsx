@@ -22,7 +22,6 @@ const Presentation = () => {
           { maxWidth: 720, size: { width: 160, height: 212 } },
           { maxWidth: 600, size: { width: 120, height: 160 } }
         ]}
-        style={{ minWidth: 'auto', minHeight: 'auto' }}
       />
       <p className='name'>Steve Anthony Luzquiños Agama</p>
       <p className='date'>

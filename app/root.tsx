@@ -26,6 +26,7 @@ import globalStyles from './styles/global.css'
 import presentationStyles from './styles/presentation.css'
 import contentStyles from './styles/content.css'
 import introductionStyles from './styles/introduction.css'
+import previousKnowledgeStyles from './styles/previousKnowledge.css'
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: remixImageStyles },
@@ -35,6 +36,7 @@ export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: presentationStyles },
   { rel: 'stylesheet', href: contentStyles },
   { rel: 'stylesheet', href: introductionStyles },
+  { rel: 'stylesheet', href: previousKnowledgeStyles },
   { rel: 'stylesheet', href: Nunito300 },
   { rel: 'stylesheet', href: Nunito400 },
   { rel: 'stylesheet', href: Nunito500 },

@@ -15,6 +15,7 @@ main.content ol {
 main.content ol li {
   list-style-type: none;
   counter-increment: item;
+  font-weight: 300;
   font-size: 1.2em;
 }
 
