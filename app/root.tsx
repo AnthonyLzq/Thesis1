@@ -59,7 +59,8 @@ export const meta: MetaFunction = () => ({
   'twitter:url': 'https://thesis1.anthonylzq.dev',
   'twitter:title': 'Tesis I - Anthony Luzquiños',
   'twitter:description':
-    'Seminario de Tesis I: Reconocimiento de Rostros en Tiempo Real y Comunicación usando protocolos IoT'
+    'Seminario de Tesis I: Reconocimiento de Rostros en Tiempo Real y Comunicación usando protocolos IoT',
+  'google-site-verification': 'YqTKhEaCZ570ZBFrWBJmMdNCq_q5pFNKVHDKwud4qdA'
 })
 
 export default function App() {
