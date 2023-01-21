@@ -63,7 +63,7 @@ export const meta: MetaFunction = () => ({
   'google-site-verification': 'YqTKhEaCZ570ZBFrWBJmMdNCq_q5pFNKVHDKwud4qdA'
 })
 
-export default function App() {
+const App = () => {
   return (
     <html lang='en'>
       <head>
@@ -79,3 +79,5 @@ export default function App() {
     </html>
   )
 }
+
+export default App

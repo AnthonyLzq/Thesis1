@@ -1,7 +1,7 @@
 import { Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import { Content, Presentation } from '~/components'
+import { Content, Introduction, Presentation } from '~/components'
 
 const App = () => {
   return (
@@ -19,7 +19,9 @@ const App = () => {
       <SwiperSlide>
         <Content />
       </SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>
+        <Introduction />
+      </SwiperSlide>
       <SwiperSlide>Slide 4</SwiperSlide>
       <SwiperSlide>Slide 5</SwiperSlide>
       <SwiperSlide>Slide 6</SwiperSlide>
