@@ -14,7 +14,7 @@ const Presentation = () => {
           { size: { width: 400, height: 532 } },
           { maxWidth: 1720, size: { width: 360, height: 480 } },
           { maxWidth: 1560, size: { width: 320, height: 424 } },
-          { maxWidth: 1440, size: { width: 300, height: 400 } },
+          { maxWidth: 1440, size: { width: 280, height: 372 } },
           { maxWidth: 1260, size: { width: 240, height: 320 } },
           { maxWidth: 1080, size: { width: 220, height: 292 } },
           { maxWidth: 900, size: { width: 200, height: 264 } },
