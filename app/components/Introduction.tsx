@@ -2,7 +2,7 @@ const Introduction = () => {
   return (
     <main className='introduction'>
       <h1>Introducción</h1>
-      <p className='introduction'>
+      <p>
         La seguridad y privacidad son temas cada vez más importantes en nuestra
         sociedad actual. Con la creciente tecnología de Reconocimiento Facial y
         el aumento de dispositivos conectados a internet, el desarrollo de

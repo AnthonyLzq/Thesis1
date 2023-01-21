@@ -1,0 +1,31 @@
+main.content {
+  justify-items: start;
+  text-align: start;
+}
+
+main.content h1 {
+  padding-left: 0.5em;
+}
+
+main.content ol {
+  display: grid;
+  gap: 1.5em;
+}
+
+main.content ol li {
+  list-style-type: none;
+  counter-increment: item;
+  font-size: 1.2em;
+}
+
+main.content ol li:before {
+  content: counter(item);
+  margin-right: 5px;
+  font-size: var(--width-80);
+  background-color: #222;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+

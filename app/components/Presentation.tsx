@@ -2,9 +2,9 @@ import { Image } from 'remix-image'
 
 const Presentation = () => {
   return (
-    <main>
-      <p className='title-presentation'>Seminario de Tesis I:</p>
-      <h1 className='title'>
+    <main className='presentation'>
+      <p className='presentation'>Seminario de Tesis I:</p>
+      <h1>
         Reconocimiento de Rostros en Tiempo Real y Comunicación usando
         protocolos IoT
       </h1>
@@ -23,7 +23,7 @@ const Presentation = () => {
         ]}
         style={{ minWidth: 'auto', minHeight: 'auto' }}
       />
-      <p>Steve Anthony Luzquiños Agama</p>
+      <p className='name'>Steve Anthony Luzquiños Agama</p>
       <p className='date'>
         {new Intl.DateTimeFormat('es-ES', {
           month: 'long',

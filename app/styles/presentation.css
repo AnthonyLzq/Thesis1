@@ -1,0 +1,23 @@
+main.presentation h1 {
+  width: var(--width-60);
+}
+
+main.presentation p.presentation {
+  margin: 0;
+}
+
+main.presentation p.name {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  main.presentation h1 {
+    width: var(--width-80);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main.presentation h1 {
+    width: var(--width-90);
+  }
+}

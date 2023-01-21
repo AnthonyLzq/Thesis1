@@ -1,8 +1,8 @@
 const Content = () => {
   return (
     <main className='content'>
-      <h1 className='title content'>Contenido</h1>
-      <ol className='content'>
+      <h1>Contenido</h1>
+      <ol>
         <li>Introducción</li>
         <li>Conocimientos previos</li>
         <li>Estructuración y Método</li>
