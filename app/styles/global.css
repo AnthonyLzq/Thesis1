@@ -6,6 +6,10 @@
   --width-100: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   position: relative;
