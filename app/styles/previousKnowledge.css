@@ -1,5 +1,3 @@
-/* TODO: fix sticky */
-
 main.previous-knowledge {
   text-align: start;
   width: var(--width-60);
@@ -14,14 +12,17 @@ main.previous-knowledge h2 {
   position: sticky;
   top: 0px;
   z-index: 2;
-  height: 36px;
+  margin: 0px;
+  height: 60px;
   width: var(--width-100);
+  background-color: #fff;
 }
 
 main.previous-knowledge p {
   font-size: 1.2em;
   font-weight: 300;
   z-index: 1;
+  margin-top: 0;
 }
 
 main.previous-knowledge h1, h2 {
