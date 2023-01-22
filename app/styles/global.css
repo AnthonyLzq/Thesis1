@@ -39,6 +39,30 @@ img {
   min-height: auto !important;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 4px;
+}
+
 p.date {
   font-size: 1.2em;
   font-weight: 300;
