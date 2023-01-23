@@ -1,41 +1,44 @@
 main.introduction {
   text-align: start;
+  width: var(--width-60);
 }
 
 main.introduction h1 {
-  width: var(--width-60);
+  width: var(--width-100);
 }
 
 main.introduction p {
-  width: var(--width-60);
+  width: var(--width-100);
   max-height: 72vh;
   overflow-y: auto;
-}
-
-main.introduction p {
   font-size: 1.2em;
   font-weight: 300;
   margin: 0;
-  width: var(--width-60);
+}
+
+@media screen and (max-width: 1080px) {
+  main.introduction {
+    width: var(--width-70);
+  }
+
+  main.introduction section {
+    height: 64vh;
+    overflow-y: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  main.introduction h1 {
+  main.introduction {
     width: var(--width-80);
   }
 
   main.introduction p {
     max-height: 64vh;
-    width: var(--width-80);
   }
 }
 
 @media screen and (max-width: 480px) {
-  main.introduction h1 {
-    width: var(--width-90);
-  }
-
-  main.introduction p {
+  main.introduction {
     width: var(--width-90);
   }
 }

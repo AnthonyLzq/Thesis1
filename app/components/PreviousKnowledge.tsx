@@ -33,10 +33,16 @@ const PreviousKnowledge = () => {
                       { maxWidth: 1120, size: { width: 380, height: 216 } },
                       { maxWidth: 900, size: { width: 360, height: 204 } },
                       { maxWidth: 600, size: { width: 300, height: 171 } },
-                      { maxWidth: 478, size: { width: 280, height: 160 } },
-                      { maxWidth: 422, size: { width: 260, height: 148 } },
-                      { maxWidth: 400, size: { width: 240, height: 137 } },
-                      { maxWidth: 376, size: { width: 220, height: 126 } }
+                      { maxWidth: 540, size: { width: 290, height: 164 } },
+                      { maxWidth: 512, size: { width: 280, height: 160 } },
+                      { maxWidth: 500, size: { width: 270, height: 154 } },
+                      { maxWidth: 460, size: { width: 260, height: 148 } },
+                      { maxWidth: 428, size: { width: 240, height: 137 } },
+                      { maxWidth: 400, size: { width: 220, height: 126 } },
+                      { maxWidth: 386, size: { width: 210, height: 120 } },
+                      { maxWidth: 368, size: { width: 200, height: 112 } },
+                      { maxWidth: 360, size: { width: 190, height: 108 } },
+                      { maxWidth: 348, size: { width: 180, height: 100 } }
                     ]}
                   />
                   <figcaption>Ejemplo de Identificación de Rostros.</figcaption>
@@ -57,10 +63,16 @@ const PreviousKnowledge = () => {
                       { maxWidth: 1120, size: { width: 380, height: 216 } },
                       { maxWidth: 900, size: { width: 360, height: 204 } },
                       { maxWidth: 600, size: { width: 300, height: 171 } },
-                      { maxWidth: 478, size: { width: 280, height: 160 } },
-                      { maxWidth: 422, size: { width: 260, height: 148 } },
-                      { maxWidth: 400, size: { width: 240, height: 137 } },
-                      { maxWidth: 376, size: { width: 220, height: 126 } }
+                      { maxWidth: 540, size: { width: 290, height: 164 } },
+                      { maxWidth: 512, size: { width: 280, height: 160 } },
+                      { maxWidth: 500, size: { width: 270, height: 154 } },
+                      { maxWidth: 460, size: { width: 260, height: 148 } },
+                      { maxWidth: 428, size: { width: 240, height: 137 } },
+                      { maxWidth: 400, size: { width: 220, height: 126 } },
+                      { maxWidth: 386, size: { width: 210, height: 120 } },
+                      { maxWidth: 368, size: { width: 200, height: 112 } },
+                      { maxWidth: 360, size: { width: 190, height: 108 } },
+                      { maxWidth: 348, size: { width: 180, height: 100 } }
                     ]}
                   />
                   <figcaption>Ejemplo de Análisis de Rostros.</figcaption>
@@ -83,7 +95,7 @@ const PreviousKnowledge = () => {
           </p>
         </article>
         <article>
-          <h2>Comunicación en Tiempo Real</h2>
+          <h2 className='long'>Comunicación en Tiempo Real</h2>
           <p>
             La creciente popularidad de los dispositivos conectados y la
             tecnología de la Internet de las Cosas (IoT) nos lleva a situaciones
@@ -116,10 +128,16 @@ const PreviousKnowledge = () => {
                   { maxWidth: 1120, size: { width: 380, height: 216 } },
                   { maxWidth: 900, size: { width: 360, height: 204 } },
                   { maxWidth: 600, size: { width: 300, height: 171 } },
-                  { maxWidth: 478, size: { width: 280, height: 160 } },
-                  { maxWidth: 422, size: { width: 260, height: 148 } },
-                  { maxWidth: 400, size: { width: 240, height: 137 } },
-                  { maxWidth: 376, size: { width: 220, height: 126 } }
+                  { maxWidth: 540, size: { width: 290, height: 164 } },
+                  { maxWidth: 512, size: { width: 280, height: 160 } },
+                  { maxWidth: 500, size: { width: 270, height: 154 } },
+                  { maxWidth: 460, size: { width: 260, height: 148 } },
+                  { maxWidth: 428, size: { width: 240, height: 137 } },
+                  { maxWidth: 400, size: { width: 220, height: 126 } },
+                  { maxWidth: 386, size: { width: 210, height: 120 } },
+                  { maxWidth: 368, size: { width: 200, height: 112 } },
+                  { maxWidth: 360, size: { width: 190, height: 108 } },
+                  { maxWidth: 348, size: { width: 180, height: 100 } }
                 ]}
               />
               <figcaption>

@@ -27,8 +27,13 @@ import presentationStyles from './styles/presentation.css'
 import contentStyles from './styles/content.css'
 import introductionStyles from './styles/introduction.css'
 import previousKnowledgeStyles from './styles/previousKnowledge.css'
+import structureAndMethod from './styles/structureAndMethod.css'
 
 export const links: LinksFunction = () => [
+  {
+    rel: 'stylesheet',
+    href: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css'
+  },
   { rel: 'stylesheet', href: remixImageStyles },
   { rel: 'stylesheet', href: swiperBundle },
   { rel: 'stylesheet', href: swiperCss },
@@ -37,6 +42,7 @@ export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: contentStyles },
   { rel: 'stylesheet', href: introductionStyles },
   { rel: 'stylesheet', href: previousKnowledgeStyles },
+  { rel: 'stylesheet', href: structureAndMethod },
   { rel: 'stylesheet', href: Nunito300 },
   { rel: 'stylesheet', href: Nunito400 },
   { rel: 'stylesheet', href: Nunito500 },

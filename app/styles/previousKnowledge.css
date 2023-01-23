@@ -14,8 +14,11 @@ main.previous-knowledge h2 {
   z-index: 2;
   margin: 0px;
   height: 60px;
-  width: var(--width-100);
   background-color: #fff;
+}
+
+main.previous-knowledge h1, h2 {
+  width: var(--width-100);
 }
 
 main.previous-knowledge p {
@@ -23,9 +26,6 @@ main.previous-knowledge p {
   font-weight: 300;
   z-index: 1;
   margin-top: 0;
-}
-
-main.previous-knowledge h1, h2 {
   width: var(--width-100);
 }
 
@@ -64,6 +64,10 @@ main.previous-knowledge figcaption {
 }
 
 @media screen and (max-width: 1080px) {
+  main.previous-knowledge {
+    width: var(--width-70);
+  }
+
   main.previous-knowledge section {
     height: 64vh;
     overflow-y: auto;
@@ -79,5 +83,11 @@ main.previous-knowledge figcaption {
 @media screen and (max-width: 480px) {
   main.previous-knowledge {
     width: var(--width-90);
+  }
+}
+
+@media screen and (max-width: 423px) {
+  main.previous-knowledge h2.long {
+    height: 80px;
   }
 }

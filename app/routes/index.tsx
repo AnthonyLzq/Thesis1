@@ -1,11 +1,12 @@
-import { Pagination } from 'swiper'
+import { Keyboard, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import {
   Content,
   Introduction,
   Presentation,
-  PreviousKnowledge
+  PreviousKnowledge,
+  StructureAndMethod
 } from '~/components'
 
 const App = () => {
@@ -15,7 +16,10 @@ const App = () => {
       pagination={{
         clickable: true
       }}
-      modules={[Pagination]}
+      keyboard={{
+        enabled: true
+      }}
+      modules={[Keyboard, Pagination]}
       className='mySwiper'
     >
       <SwiperSlide>
@@ -30,7 +34,9 @@ const App = () => {
       <SwiperSlide>
         <PreviousKnowledge />
       </SwiperSlide>
-      <SwiperSlide>Slide 5</SwiperSlide>
+      <SwiperSlide>
+        <StructureAndMethod />
+      </SwiperSlide>
       <SwiperSlide>Slide 6</SwiperSlide>
       <SwiperSlide>Slide 7</SwiperSlide>
       <SwiperSlide>Slide 8</SwiperSlide>
