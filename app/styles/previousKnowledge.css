@@ -21,7 +21,7 @@ main.previous-knowledge h1, h2 {
   width: var(--width-100);
 }
 
-main.previous-knowledge p {
+main.previous-knowledge p, ol {
   font-size: 1.2em;
   font-weight: 300;
   z-index: 1;

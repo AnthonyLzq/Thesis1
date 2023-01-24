@@ -32,7 +32,7 @@ main.structure-and-method h3 {
   background-color: #fff;
 }
 
-main.structure-and-method p {
+main.structure-and-method p, ol {
   font-size: 1.2em;
   font-weight: 300;
   z-index: 1;

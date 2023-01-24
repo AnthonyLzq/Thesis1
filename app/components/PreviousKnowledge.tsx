@@ -18,81 +18,81 @@ const PreviousKnowledge = () => {
             <br />
             Comúnmente el proceso de Reconocimiento Facial consta de 4 pasos:
             <br />
-            <ol>
-              <li>
-                Detección de rostros en una imagen. Esto se puede hacer usando
-                una variedad de métodos, incluidas las cascadas de Haar, los
-                patrones binarios locales (LBP) y el aprendizaje profundo.
-                Podemos ver un ejemplo de esto en la siguiente figura:
-                <figure>
-                  <Image
-                    src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/step1.png?alt=media'
-                    alt='Paso 1 del proceso de Reconocimiento Facial'
-                    responsive={[
-                      { size: { width: 508, height: 288 } },
-                      { maxWidth: 1120, size: { width: 380, height: 216 } },
-                      { maxWidth: 900, size: { width: 360, height: 204 } },
-                      { maxWidth: 600, size: { width: 300, height: 171 } },
-                      { maxWidth: 540, size: { width: 290, height: 164 } },
-                      { maxWidth: 512, size: { width: 280, height: 160 } },
-                      { maxWidth: 500, size: { width: 270, height: 154 } },
-                      { maxWidth: 460, size: { width: 260, height: 148 } },
-                      { maxWidth: 428, size: { width: 240, height: 137 } },
-                      { maxWidth: 400, size: { width: 220, height: 126 } },
-                      { maxWidth: 386, size: { width: 210, height: 120 } },
-                      { maxWidth: 368, size: { width: 200, height: 112 } },
-                      { maxWidth: 360, size: { width: 190, height: 108 } },
-                      { maxWidth: 348, size: { width: 180, height: 100 } }
-                    ]}
-                  />
-                  <figcaption>Ejemplo de Identificación de Rostros.</figcaption>
-                </figure>
-              </li>
-              <li>
-                Análisis de rostros. Esto generalmente consiste en identificar
-                las propiedades geométricas claves del rostro. El objetivo es
-                identificar puntos de referencia que son esenciales para
-                distinguir un rostro. Podemos ver un ejemplo de esto en la
-                siguiente figura:
-                <figure>
-                  <Image
-                    src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/step2.png?alt=media'
-                    alt='Paso 1 del proceso de Reconocimiento Facial'
-                    responsive={[
-                      { size: { width: 508, height: 288 } },
-                      { maxWidth: 1120, size: { width: 380, height: 216 } },
-                      { maxWidth: 900, size: { width: 360, height: 204 } },
-                      { maxWidth: 600, size: { width: 300, height: 171 } },
-                      { maxWidth: 540, size: { width: 290, height: 164 } },
-                      { maxWidth: 512, size: { width: 280, height: 160 } },
-                      { maxWidth: 500, size: { width: 270, height: 154 } },
-                      { maxWidth: 460, size: { width: 260, height: 148 } },
-                      { maxWidth: 428, size: { width: 240, height: 137 } },
-                      { maxWidth: 400, size: { width: 220, height: 126 } },
-                      { maxWidth: 386, size: { width: 210, height: 120 } },
-                      { maxWidth: 368, size: { width: 200, height: 112 } },
-                      { maxWidth: 360, size: { width: 190, height: 108 } },
-                      { maxWidth: 348, size: { width: 180, height: 100 } }
-                    ]}
-                  />
-                  <figcaption>Ejemplo de Análisis de Rostros.</figcaption>
-                </figure>
-              </li>
-              <li>
-                Conversión de la imagen en data. Este proceso consiste en
-                obtener un conjunto de datos numéricos a partir de los puntos de
-                referencia identificados en el paso anterior. Estos datos
-                numéricos son conocidos, generalmente, como <i>"faceprint"</i>{' '}
-                (huella facial). Análogamente a las huellas digitales, las
-                huellas faciales son únicas para cada rostro.
-              </li>
-              <li>
-                Comparación. Finalmente, una vez calculada la huella facial del
-                rostro, esta se compara contra un dataset de huellas faciales
-                previamente registradas para encontrar alguna coincidencia.
-              </li>
-            </ol>
           </p>
+          <ol>
+            <li>
+              Detección de rostros en una imagen. Esto se puede hacer usando una
+              variedad de métodos, incluidas las cascadas de Haar, los patrones
+              binarios locales (LBP) y el aprendizaje profundo. Podemos ver un
+              ejemplo de esto en la siguiente figura:
+              <figure>
+                <Image
+                  src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/step1.png?alt=media'
+                  alt='Paso 1 del proceso de Reconocimiento Facial'
+                  responsive={[
+                    { size: { width: 508, height: 288 } },
+                    { maxWidth: 1120, size: { width: 380, height: 216 } },
+                    { maxWidth: 900, size: { width: 360, height: 204 } },
+                    { maxWidth: 600, size: { width: 300, height: 171 } },
+                    { maxWidth: 540, size: { width: 290, height: 164 } },
+                    { maxWidth: 512, size: { width: 280, height: 160 } },
+                    { maxWidth: 500, size: { width: 270, height: 154 } },
+                    { maxWidth: 460, size: { width: 260, height: 148 } },
+                    { maxWidth: 428, size: { width: 240, height: 137 } },
+                    { maxWidth: 400, size: { width: 220, height: 126 } },
+                    { maxWidth: 386, size: { width: 210, height: 120 } },
+                    { maxWidth: 368, size: { width: 200, height: 112 } },
+                    { maxWidth: 360, size: { width: 190, height: 108 } },
+                    { maxWidth: 348, size: { width: 180, height: 100 } }
+                  ]}
+                />
+                <figcaption>Ejemplo de Identificación de Rostros.</figcaption>
+              </figure>
+            </li>
+            <li>
+              Análisis de rostros. Esto generalmente consiste en identificar las
+              propiedades geométricas claves del rostro. El objetivo es
+              identificar puntos de referencia que son esenciales para
+              distinguir un rostro. Podemos ver un ejemplo de esto en la
+              siguiente figura:
+              <figure>
+                <Image
+                  src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/step2.png?alt=media'
+                  alt='Paso 1 del proceso de Reconocimiento Facial'
+                  responsive={[
+                    { size: { width: 508, height: 288 } },
+                    { maxWidth: 1120, size: { width: 380, height: 216 } },
+                    { maxWidth: 900, size: { width: 360, height: 204 } },
+                    { maxWidth: 600, size: { width: 300, height: 171 } },
+                    { maxWidth: 540, size: { width: 290, height: 164 } },
+                    { maxWidth: 512, size: { width: 280, height: 160 } },
+                    { maxWidth: 500, size: { width: 270, height: 154 } },
+                    { maxWidth: 460, size: { width: 260, height: 148 } },
+                    { maxWidth: 428, size: { width: 240, height: 137 } },
+                    { maxWidth: 400, size: { width: 220, height: 126 } },
+                    { maxWidth: 386, size: { width: 210, height: 120 } },
+                    { maxWidth: 368, size: { width: 200, height: 112 } },
+                    { maxWidth: 360, size: { width: 190, height: 108 } },
+                    { maxWidth: 348, size: { width: 180, height: 100 } }
+                  ]}
+                />
+                <figcaption>Ejemplo de Análisis de Rostros.</figcaption>
+              </figure>
+            </li>
+            <li>
+              Conversión de la imagen en data. Este proceso consiste en obtener
+              un conjunto de datos numéricos a partir de los puntos de
+              referencia identificados en el paso anterior. Estos datos
+              numéricos son conocidos, generalmente, como <i>"faceprint"</i>{' '}
+              (huella facial). Análogamente a las huellas digitales, las huellas
+              faciales son únicas para cada rostro.
+            </li>
+            <li>
+              Comparación. Finalmente, una vez calculada la huella facial del
+              rostro, esta se compara contra un dataset de huellas faciales
+              previamente registradas para encontrar alguna coincidencia.
+            </li>
+          </ol>
         </article>
         <article>
           <h2 className='long'>Comunicación en Tiempo Real</h2>
@@ -119,33 +119,33 @@ const PreviousKnowledge = () => {
             de mensajería orientado a la eficiencia, lo que significa que es muy
             eficiente en términos de ancho de banda y recursos de red. Veamos un
             ejemplo de un diagrama básico de comunicación MQTT:
-            <figure>
-              <Image
-                src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/iot_diagram.png?alt=media'
-                alt='Ejemplo de Diagrama de Comunicación en IoT usando el protocolo MQTT.'
-                responsive={[
-                  { size: { width: 508, height: 288 } },
-                  { maxWidth: 1120, size: { width: 380, height: 216 } },
-                  { maxWidth: 900, size: { width: 360, height: 204 } },
-                  { maxWidth: 600, size: { width: 300, height: 171 } },
-                  { maxWidth: 540, size: { width: 290, height: 164 } },
-                  { maxWidth: 512, size: { width: 280, height: 160 } },
-                  { maxWidth: 500, size: { width: 270, height: 154 } },
-                  { maxWidth: 460, size: { width: 260, height: 148 } },
-                  { maxWidth: 428, size: { width: 240, height: 137 } },
-                  { maxWidth: 400, size: { width: 220, height: 126 } },
-                  { maxWidth: 386, size: { width: 210, height: 120 } },
-                  { maxWidth: 368, size: { width: 200, height: 112 } },
-                  { maxWidth: 360, size: { width: 190, height: 108 } },
-                  { maxWidth: 348, size: { width: 180, height: 100 } }
-                ]}
-              />
-              <figcaption>
-                Ejemplo de Diagrama de Comunicación en IoT usando el protocolo
-                MQTT.
-              </figcaption>
-            </figure>
           </p>
+          <figure>
+            <Image
+              src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/iot_diagram.png?alt=media'
+              alt='Ejemplo de Diagrama de Comunicación en IoT usando el protocolo MQTT.'
+              responsive={[
+                { size: { width: 508, height: 288 } },
+                { maxWidth: 1120, size: { width: 380, height: 216 } },
+                { maxWidth: 900, size: { width: 360, height: 204 } },
+                { maxWidth: 600, size: { width: 300, height: 171 } },
+                { maxWidth: 540, size: { width: 290, height: 164 } },
+                { maxWidth: 512, size: { width: 280, height: 160 } },
+                { maxWidth: 500, size: { width: 270, height: 154 } },
+                { maxWidth: 460, size: { width: 260, height: 148 } },
+                { maxWidth: 428, size: { width: 240, height: 137 } },
+                { maxWidth: 400, size: { width: 220, height: 126 } },
+                { maxWidth: 386, size: { width: 210, height: 120 } },
+                { maxWidth: 368, size: { width: 200, height: 112 } },
+                { maxWidth: 360, size: { width: 190, height: 108 } },
+                { maxWidth: 348, size: { width: 180, height: 100 } }
+              ]}
+            />
+            <figcaption>
+              Ejemplo de Diagrama de Comunicación en IoT usando el protocolo
+              MQTT.
+            </figcaption>
+          </figure>
         </article>
       </section>
     </main>
