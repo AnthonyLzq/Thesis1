@@ -30,20 +30,21 @@ const PreviousKnowledge = () => {
                   src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/step1.png?alt=media'
                   alt='Paso 1 del proceso de Reconocimiento Facial'
                   responsive={[
-                    { size: { width: 508, height: 288 } },
-                    { maxWidth: 1120, size: { width: 380, height: 216 } },
-                    { maxWidth: 900, size: { width: 360, height: 204 } },
-                    { maxWidth: 600, size: { width: 300, height: 171 } },
-                    { maxWidth: 540, size: { width: 290, height: 164 } },
-                    { maxWidth: 512, size: { width: 280, height: 160 } },
-                    { maxWidth: 500, size: { width: 270, height: 154 } },
-                    { maxWidth: 460, size: { width: 260, height: 148 } },
-                    { maxWidth: 428, size: { width: 240, height: 137 } },
-                    { maxWidth: 400, size: { width: 220, height: 126 } },
-                    { maxWidth: 386, size: { width: 210, height: 120 } },
-                    { maxWidth: 368, size: { width: 200, height: 112 } },
-                    { maxWidth: 360, size: { width: 190, height: 108 } },
-                    { maxWidth: 348, size: { width: 180, height: 100 } }
+                    { size: { width: 508 } },
+                    { maxWidth: 1120, size: { width: 380 } },
+                    { maxWidth: 900, size: { width: 360 } },
+                    { maxWidth: 600, size: { width: 300 } },
+                    { maxWidth: 540, size: { width: 290 } },
+                    { maxWidth: 512, size: { width: 280 } },
+                    { maxWidth: 500, size: { width: 270 } },
+                    { maxWidth: 480, size: { width: 265 } },
+                    { maxWidth: 460, size: { width: 260 } },
+                    { maxWidth: 428, size: { width: 240 } },
+                    { maxWidth: 400, size: { width: 220 } },
+                    { maxWidth: 386, size: { width: 210 } },
+                    { maxWidth: 368, size: { width: 200 } },
+                    { maxWidth: 360, size: { width: 190 } },
+                    { maxWidth: 348, size: { width: 180 } }
                   ]}
                 />
                 <figcaption>Ejemplo de Identificación de Rostros.</figcaption>
@@ -60,20 +61,21 @@ const PreviousKnowledge = () => {
                   src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/step2.png?alt=media'
                   alt='Paso 1 del proceso de Reconocimiento Facial'
                   responsive={[
-                    { size: { width: 508, height: 288 } },
-                    { maxWidth: 1120, size: { width: 380, height: 216 } },
-                    { maxWidth: 900, size: { width: 360, height: 204 } },
-                    { maxWidth: 600, size: { width: 300, height: 171 } },
-                    { maxWidth: 540, size: { width: 290, height: 164 } },
-                    { maxWidth: 512, size: { width: 280, height: 160 } },
-                    { maxWidth: 500, size: { width: 270, height: 154 } },
-                    { maxWidth: 460, size: { width: 260, height: 148 } },
-                    { maxWidth: 428, size: { width: 240, height: 137 } },
-                    { maxWidth: 400, size: { width: 220, height: 126 } },
-                    { maxWidth: 386, size: { width: 210, height: 120 } },
-                    { maxWidth: 368, size: { width: 200, height: 112 } },
-                    { maxWidth: 360, size: { width: 190, height: 108 } },
-                    { maxWidth: 348, size: { width: 180, height: 100 } }
+                    { size: { width: 508 } },
+                    { maxWidth: 1120, size: { width: 380 } },
+                    { maxWidth: 900, size: { width: 360 } },
+                    { maxWidth: 600, size: { width: 300 } },
+                    { maxWidth: 540, size: { width: 290 } },
+                    { maxWidth: 512, size: { width: 280 } },
+                    { maxWidth: 500, size: { width: 270 } },
+                    { maxWidth: 480, size: { width: 265 } },
+                    { maxWidth: 460, size: { width: 260 } },
+                    { maxWidth: 428, size: { width: 240 } },
+                    { maxWidth: 400, size: { width: 220 } },
+                    { maxWidth: 386, size: { width: 210 } },
+                    { maxWidth: 368, size: { width: 200 } },
+                    { maxWidth: 360, size: { width: 190 } },
+                    { maxWidth: 348, size: { width: 180 } }
                   ]}
                 />
                 <figcaption>Ejemplo de Análisis de Rostros.</figcaption>
@@ -125,20 +127,21 @@ const PreviousKnowledge = () => {
               src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/iot_diagram.png?alt=media'
               alt='Ejemplo de Diagrama de Comunicación en IoT usando el protocolo MQTT.'
               responsive={[
-                { size: { width: 508, height: 288 } },
-                { maxWidth: 1120, size: { width: 380, height: 216 } },
-                { maxWidth: 900, size: { width: 360, height: 204 } },
-                { maxWidth: 600, size: { width: 300, height: 171 } },
-                { maxWidth: 540, size: { width: 290, height: 164 } },
-                { maxWidth: 512, size: { width: 280, height: 160 } },
-                { maxWidth: 500, size: { width: 270, height: 154 } },
-                { maxWidth: 460, size: { width: 260, height: 148 } },
-                { maxWidth: 428, size: { width: 240, height: 137 } },
-                { maxWidth: 400, size: { width: 220, height: 126 } },
-                { maxWidth: 386, size: { width: 210, height: 120 } },
-                { maxWidth: 368, size: { width: 200, height: 112 } },
-                { maxWidth: 360, size: { width: 190, height: 108 } },
-                { maxWidth: 348, size: { width: 180, height: 100 } }
+                { size: { width: 508 } },
+                { maxWidth: 1120, size: { width: 380 } },
+                { maxWidth: 900, size: { width: 360 } },
+                { maxWidth: 600, size: { width: 300 } },
+                { maxWidth: 540, size: { width: 290 } },
+                { maxWidth: 512, size: { width: 280 } },
+                { maxWidth: 500, size: { width: 270 } },
+                { maxWidth: 480, size: { width: 265 } },
+                { maxWidth: 460, size: { width: 260 } },
+                { maxWidth: 428, size: { width: 240 } },
+                { maxWidth: 400, size: { width: 220 } },
+                { maxWidth: 386, size: { width: 210 } },
+                { maxWidth: 368, size: { width: 200 } },
+                { maxWidth: 360, size: { width: 190 } },
+                { maxWidth: 348, size: { width: 180 } }
               ]}
             />
             <figcaption>

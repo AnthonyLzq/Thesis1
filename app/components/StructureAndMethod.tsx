@@ -70,7 +70,7 @@ const StructureAndMethod = () => {
               responsive={[
                 { size: { width: 680 } },
                 { maxWidth: 1280, size: { width: 600 } },
-                { maxWidth: 1120, size: { width: 520 } },
+                { maxWidth: 1130, size: { width: 520 } },
                 { maxWidth: 1080, size: { width: 460 } },
                 { maxWidth: 900, size: { width: 380 } },
                 { maxWidth: 680, size: { width: 300 } },
@@ -114,11 +114,11 @@ const StructureAndMethod = () => {
                 src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/hivemq_device_setup.png?alt=media'
                 alt='Configuración de credenciales de un dispositivo.'
                 responsive={[
-                  { size: { width: 860 } },
-                  { maxWidth: 1536, size: { width: 760 } },
+                  { size: { width: 850 } },
+                  { maxWidth: 1566, size: { width: 760 } },
                   { maxWidth: 1440, size: { width: 660 } },
-                  { maxWidth: 1280, size: { width: 560 } },
-                  { maxWidth: 1120, size: { width: 460 } },
+                  { maxWidth: 1280, size: { width: 550 } },
+                  { maxWidth: 1130, size: { width: 460 } },
                   { maxWidth: 900, size: { width: 360 } },
                   { maxWidth: 600, size: { width: 260 } },
                   { maxWidth: 430, size: { width: 160 } }
@@ -136,7 +136,7 @@ const StructureAndMethod = () => {
                   { size: { width: 750 } },
                   { maxWidth: 1596, size: { width: 680 } },
                   { maxWidth: 1440, size: { width: 610 } },
-                  { maxWidth: 1120, size: { width: 540 } },
+                  { maxWidth: 1160, size: { width: 540 } },
                   { maxWidth: 960, size: { width: 510 } },
                   { maxWidth: 848, size: { width: 480 } },
                   { maxWidth: 820, size: { width: 450 } },
@@ -223,7 +223,7 @@ const StructureAndMethod = () => {
                 responsive={[
                   { size: { width: 680 } },
                   { maxWidth: 1280, size: { width: 600 } },
-                  { maxWidth: 1120, size: { width: 520 } },
+                  { maxWidth: 1130, size: { width: 520 } },
                   { maxWidth: 1080, size: { width: 460 } },
                   { maxWidth: 900, size: { width: 380 } },
                   { maxWidth: 680, size: { width: 300 } },
@@ -253,7 +253,7 @@ const StructureAndMethod = () => {
               responsive={[
                 { size: { width: 680 } },
                 { maxWidth: 1280, size: { width: 600 } },
-                { maxWidth: 1120, size: { width: 520 } },
+                { maxWidth: 1130, size: { width: 520 } },
                 { maxWidth: 1080, size: { width: 460 } },
                 { maxWidth: 900, size: { width: 380 } },
                 { maxWidth: 680, size: { width: 300 } },
@@ -285,7 +285,7 @@ const StructureAndMethod = () => {
               responsive={[
                 { size: { width: 680 } },
                 { maxWidth: 1280, size: { width: 600 } },
-                { maxWidth: 1120, size: { width: 520 } },
+                { maxWidth: 1130, size: { width: 520 } },
                 { maxWidth: 1080, size: { width: 460 } },
                 { maxWidth: 900, size: { width: 380 } },
                 { maxWidth: 680, size: { width: 300 } },
@@ -303,7 +303,7 @@ const StructureAndMethod = () => {
               responsive={[
                 { size: { width: 680 } },
                 { maxWidth: 1280, size: { width: 600 } },
-                { maxWidth: 1120, size: { width: 520 } },
+                { maxWidth: 1130, size: { width: 520 } },
                 { maxWidth: 1080, size: { width: 460 } },
                 { maxWidth: 900, size: { width: 380 } },
                 { maxWidth: 680, size: { width: 300 } },
@@ -332,7 +332,7 @@ const StructureAndMethod = () => {
               responsive={[
                 { size: { width: 300 } },
                 { maxWidth: 500, size: { width: 270 } },
-                { maxWidth: 378, size: { width: 240 } }
+                { maxWidth: 396, size: { width: 240 } }
               ]}
             />
             <figcaption>
@@ -355,7 +355,9 @@ const StructureAndMethod = () => {
                     { size: { width: 300 } },
                     { maxWidth: 680, size: { width: 270 } },
                     { maxWidth: 500, size: { width: 240 } },
-                    { maxWidth: 378, size: { width: 210 } }
+                    { maxWidth: 408, size: { width: 210 } },
+                    { maxWidth: 380, size: { width: 200 } },
+                    { maxWidth: 370, size: { width: 195 } }
                   ]}
                 />
                 <figcaption>Registro en Supabase.</figcaption>
@@ -370,14 +372,17 @@ const StructureAndMethod = () => {
                   responsive={[
                     { size: { width: 600 } },
                     { maxWidth: 1280, size: { width: 540 } },
-                    { maxWidth: 1080, size: { width: 520 } },
-                    { maxWidth: 956, size: { width: 480 } },
+                    { maxWidth: 1140, size: { width: 520 } },
+                    { maxWidth: 1040, size: { width: 500 } },
+                    { maxWidth: 960, size: { width: 480 } },
                     { maxWidth: 900, size: { width: 420 } },
                     { maxWidth: 860, size: { width: 390 } },
                     { maxWidth: 780, size: { width: 360 } },
                     { maxWidth: 680, size: { width: 300 } },
                     { maxWidth: 600, size: { width: 270 } },
-                    { maxWidth: 500, size: { width: 240 } }
+                    { maxWidth: 500, size: { width: 240 } },
+                    { maxWidth: 420, size: { width: 210 } },
+                    { maxWidth: 371, size: { width: 200 } }
                   ]}
                 />
                 <figcaption>Creación de proyecto en Supabase.</figcaption>
@@ -392,11 +397,13 @@ const StructureAndMethod = () => {
                   responsive={[
                     { size: { width: 600 } },
                     { maxWidth: 1280, size: { width: 540 } },
-                    { maxWidth: 1080, size: { width: 480 } },
+                    { maxWidth: 1140, size: { width: 480 } },
                     { maxWidth: 956, size: { width: 400 } },
                     { maxWidth: 680, size: { width: 360 } },
                     { maxWidth: 600, size: { width: 270 } },
-                    { maxWidth: 500, size: { width: 240 } }
+                    { maxWidth: 500, size: { width: 240 } },
+                    { maxWidth: 420, size: { width: 220 } },
+                    { maxWidth: 390, size: { width: 200 } }
                   ]}
                 />
                 <figcaption>
@@ -414,11 +421,13 @@ const StructureAndMethod = () => {
                   responsive={[
                     { size: { width: 600 } },
                     { maxWidth: 1280, size: { width: 540 } },
-                    { maxWidth: 1080, size: { width: 480 } },
+                    { maxWidth: 1100, size: { width: 480 } },
                     { maxWidth: 956, size: { width: 400 } },
                     { maxWidth: 680, size: { width: 360 } },
                     { maxWidth: 600, size: { width: 270 } },
-                    { maxWidth: 500, size: { width: 240 } }
+                    { maxWidth: 500, size: { width: 240 } },
+                    { maxWidth: 410, size: { width: 220 } },
+                    { maxWidth: 380, size: { width: 200 } }
                   ]}
                 />
                 <figcaption>
@@ -468,8 +477,10 @@ const StructureAndMethod = () => {
                 { maxWidth: 1080, size: { width: 480 } },
                 { maxWidth: 956, size: { width: 400 } },
                 { maxWidth: 680, size: { width: 360 } },
-                { maxWidth: 600, size: { width: 270 } },
-                { maxWidth: 500, size: { width: 240 } }
+                { maxWidth: 604, size: { width: 270 } },
+                { maxWidth: 500, size: { width: 240 } },
+                { maxWidth: 380, size: { width: 220 } },
+                { maxWidth: 370, size: { width: 215 } }
               ]}
             />
             <figcaption>Registro en Twilio.</figcaption>
@@ -496,14 +507,17 @@ const StructureAndMethod = () => {
                 { maxWidth: 1280, size: { width: 600 } },
                 { maxWidth: 1210, size: { width: 570 } },
                 { maxWidth: 1180, size: { width: 540 } },
-                { maxWidth: 1120, size: { width: 510 } },
+                { maxWidth: 1130, size: { width: 510 } },
                 { maxWidth: 900, size: { width: 480 } },
+                { maxWidth: 810, size: { width: 465 } },
                 { maxWidth: 780, size: { width: 450 } },
-                { maxWidth: 640, size: { width: 400 } },
+                { maxWidth: 670, size: { width: 400 } },
+                { maxWidth: 640, size: { width: 385 } },
                 { maxWidth: 612, size: { width: 370 } },
-                { maxWidth: 560, size: { width: 330 } },
+                { maxWidth: 568, size: { width: 330 } },
                 { maxWidth: 520, size: { width: 300 } },
-                { maxWidth: 430, size: { width: 250 } }
+                { maxWidth: 430, size: { width: 250 } },
+                { maxWidth: 380, size: { width: 220 } }
               ]}
             />
             <figcaption>
@@ -531,11 +545,12 @@ const StructureAndMethod = () => {
               responsive={[
                 { size: { width: 680 } },
                 { maxWidth: 1280, size: { width: 600 } },
-                { maxWidth: 1120, size: { width: 520 } },
+                { maxWidth: 1140, size: { width: 500 } },
                 { maxWidth: 1080, size: { width: 460 } },
                 { maxWidth: 900, size: { width: 380 } },
                 { maxWidth: 680, size: { width: 300 } },
-                { maxWidth: 478, size: { width: 240 } }
+                { maxWidth: 478, size: { width: 240 } },
+                { maxWidth: 380, size: { width: 220 } }
               ]}
             />
             <figcaption>
@@ -561,11 +576,12 @@ const StructureAndMethod = () => {
               responsive={[
                 { size: { width: 680 } },
                 { maxWidth: 1280, size: { width: 600 } },
-                { maxWidth: 1120, size: { width: 520 } },
+                { maxWidth: 1140, size: { width: 500 } },
                 { maxWidth: 1080, size: { width: 460 } },
                 { maxWidth: 900, size: { width: 380 } },
                 { maxWidth: 680, size: { width: 300 } },
-                { maxWidth: 478, size: { width: 240 } }
+                { maxWidth: 478, size: { width: 240 } },
+                { maxWidth: 380, size: { width: 220 } }
               ]}
             />
             <figcaption>
