@@ -39,6 +39,10 @@ img {
   min-height: auto !important;
 }
 
+iframe {
+  margin-top: 1em;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 4px;

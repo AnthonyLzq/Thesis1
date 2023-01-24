@@ -20,7 +20,8 @@ specifiers:
   prettier: ^2.8.3
   react: ^18.2.0
   react-dom: ^18.2.0
-  react-highlight: ^0.15.0
+  react-equation: ^1.0.0
+  react-gist: ^1.2.4
   remix-image: ^1.4.0
   swiper: ^8.4.6
   typescript: ^4.9.4
@@ -33,7 +34,8 @@ dependencies:
   '@vercel/node': 2.8.14
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-highlight: 0.15.0
+  react-equation: 1.0.0_react@18.2.0
+  react-gist: 1.2.4_react@18.2.0
   remix-image: 1.4.0_sntao6pqg4uiyrtil6oukyyhqm
   swiper: 8.4.6
 
@@ -3531,6 +3533,17 @@ packages:
       tapable: 2.2.1
     dev: true
 
+  /equation-parser/1.0.0:
+    resolution: {integrity: sha512-IeuLPiZoYMBvnFD5CR2ehF+NGjFDppEX3Ox/5suVQex3XII6QnWfUB3RWa6q2dQBGiMfA4a5SuauihpIPaRQhg==}
+    hasBin: true
+    dev: false
+
+  /equation-resolver/1.0.0:
+    resolution: {integrity: sha512-g///JMzbprqLtaEKgSjsVG7iqT1sMr/Ku7dQ7EApltALjKqklM55EAwHRzFSfgABxrd/oEU02IMkW2htG6sFxg==}
+    dependencies:
+      equation-parser: 1.0.0
+    dev: false
+
   /es-abstract/1.21.1:
     resolution: {integrity: sha512-QudMsPOz86xYz/1dG1OuGBKOELjCh99IIWHLzy5znUB6j8xG2yMA7bfTV86VSqKF+Y/H08vQPR+9jyXpuC6hfg==}
     engines: {node: '>= 0.4'}
@@ -5023,10 +5036,6 @@ packages:
   /hast-util-whitespace/2.0.1:
     resolution: {integrity: sha512-nAxA0v8+vXSBDt3AnRUNjyRIQ0rD+ntpbAp4LnPkumc5M9yUbSMa4XDU9Q6etY4f1Wp4bNgvc1yjiZtsTTrSng==}
     dev: true
-
-  /highlight.js/10.7.3:
-    resolution: {integrity: sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==}
-    dev: false
 
   /http-cache-semantics/4.1.0:
     resolution: {integrity: sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==}
@@ -7246,10 +7255,22 @@ packages:
       react: 18.2.0
       scheduler: 0.23.0
 
-  /react-highlight/0.15.0:
-    resolution: {integrity: sha512-5uV/b/N4Z421GSVVe05fz+OfTsJtFzx/fJBdafZyw4LS70XjIZwgEx3Lrkfc01W/RzZ2Dtfb0DApoaJFAIKBtA==}
+  /react-equation/1.0.0_react@18.2.0:
+    resolution: {integrity: sha512-08k+kaRNn2oMWh3b8EElOeMVAjoJbXfVcpXboTqJjYcdOB36LnX70uzLiJiBhXqaVtZqsJiSvsx+F6MSjWaC+A==}
+    peerDependencies:
+      react: ~16.8.0
     dependencies:
-      highlight.js: 10.7.3
+      equation-parser: 1.0.0
+      equation-resolver: 1.0.0
+      react: 18.2.0
+    dev: false
+
+  /react-gist/1.2.4_react@18.2.0:
+    resolution: {integrity: sha512-uDgPJ08IJsl/7auK3CS53JKGC1P/X7tNCzo9k0r6D/5l+ilsxE1+SAaylJCh0aeyZoJOoxQikKU+MHsAvA9iFw==}
+    peerDependencies:
+      react: 0.14.x || ^15.0.0-rc || ^16.0.0-rc || ^17.0.0-rc
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:

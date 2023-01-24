@@ -1,14 +1,6 @@
 import { Image } from 'remix-image'
-import Highlight from 'react-highlight'
-
-const supabaseScript = `import { createClient } from '@supabase/supabase-js'
-
-const supabaseUrl = process.env.SUPABASE_URL as string
-const supabaseKey = process.env.SUPABASE_KEY as string
-
-const client = createClient(supabaseUrl, supabaseKey)
-
-export { client }`
+import Gist from 'react-gist'
+import { Equation } from 'react-equation'
 
 const StructureAndMethod = () => {
   return (
@@ -74,13 +66,13 @@ const StructureAndMethod = () => {
                 src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/architecture.png?alt=media'
                 alt='Diagrama de arquitectura del sistema "DoorCloud".'
                 responsive={[
-                  { size: { width: 680, height: 300 } },
-                  { maxWidth: 1280, size: { width: 600, height: 264 } },
-                  { maxWidth: 1120, size: { width: 520, height: 232 } },
-                  { maxWidth: 1080, size: { width: 460, height: 200 } },
-                  { maxWidth: 900, size: { width: 380, height: 168 } },
-                  { maxWidth: 680, size: { width: 300, height: 132 } },
-                  { maxWidth: 478, size: { width: 240, height: 104 } }
+                  { size: { width: 680 } },
+                  { maxWidth: 1280, size: { width: 600 } },
+                  { maxWidth: 1120, size: { width: 520 } },
+                  { maxWidth: 1080, size: { width: 460 } },
+                  { maxWidth: 900, size: { width: 380 } },
+                  { maxWidth: 680, size: { width: 300 } },
+                  { maxWidth: 478, size: { width: 240 } }
                 ]}
               />
               <figcaption>
@@ -106,11 +98,11 @@ const StructureAndMethod = () => {
                   src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/hivemq_signup.png?alt=media'
                   alt='Registro en HiveMQ.'
                   responsive={[
-                    { size: { width: 300, height: 540 } },
-                    { maxWidth: 430, size: { width: 280, height: 504 } },
-                    { maxWidth: 404, size: { width: 260, height: 468 } },
-                    { maxWidth: 380, size: { width: 240, height: 432 } },
-                    { maxWidth: 366, size: { width: 220, height: 396 } }
+                    { size: { width: 300 } },
+                    { maxWidth: 430, size: { width: 280 } },
+                    { maxWidth: 404, size: { width: 260 } },
+                    { maxWidth: 380, size: { width: 240 } },
+                    { maxWidth: 366, size: { width: 220 } }
                   ]}
                 />
                 <figcaption>Registro en HiveMQ.</figcaption>
@@ -120,14 +112,14 @@ const StructureAndMethod = () => {
                   src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/hivemq_device_setup.png?alt=media'
                   alt='Configuración de credenciales de un dispositivo.'
                   responsive={[
-                    { size: { width: 860, height: 540 } },
-                    { maxWidth: 1536, size: { width: 760, height: 496 } },
-                    { maxWidth: 1440, size: { width: 660, height: 428 } },
-                    { maxWidth: 1280, size: { width: 560, height: 364 } },
-                    { maxWidth: 1120, size: { width: 460, height: 300 } },
-                    { maxWidth: 900, size: { width: 360, height: 232 } },
-                    { maxWidth: 600, size: { width: 260, height: 168 } },
-                    { maxWidth: 430, size: { width: 160, height: 104 } }
+                    { size: { width: 860 } },
+                    { maxWidth: 1536, size: { width: 760 } },
+                    { maxWidth: 1440, size: { width: 660 } },
+                    { maxWidth: 1280, size: { width: 560 } },
+                    { maxWidth: 1120, size: { width: 460 } },
+                    { maxWidth: 900, size: { width: 360 } },
+                    { maxWidth: 600, size: { width: 260 } },
+                    { maxWidth: 430, size: { width: 160 } }
                   ]}
                 />
                 <figcaption>
@@ -139,19 +131,19 @@ const StructureAndMethod = () => {
                   src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/hivemq_free_cluster.png?alt=media'
                   alt='Configuración de credenciales de un dispositivo.'
                   responsive={[
-                    { size: { width: 750, height: 300 } },
-                    { maxWidth: 1596, size: { width: 680, height: 272 } },
-                    { maxWidth: 1440, size: { width: 610, height: 244 } },
-                    { maxWidth: 1120, size: { width: 540, height: 216 } },
-                    { maxWidth: 960, size: { width: 510, height: 204 } },
-                    { maxWidth: 848, size: { width: 480, height: 192 } },
-                    { maxWidth: 820, size: { width: 450, height: 180 } },
-                    { maxWidth: 680, size: { width: 420, height: 168 } },
-                    { maxWidth: 640, size: { width: 390, height: 156 } },
-                    { maxWidth: 612, size: { width: 360, height: 144 } },
-                    { maxWidth: 560, size: { width: 330, height: 132 } },
-                    { maxWidth: 520, size: { width: 300, height: 120 } },
-                    { maxWidth: 430, size: { width: 220, height: 88 } }
+                    { size: { width: 750 } },
+                    { maxWidth: 1596, size: { width: 680 } },
+                    { maxWidth: 1440, size: { width: 610 } },
+                    { maxWidth: 1120, size: { width: 540 } },
+                    { maxWidth: 960, size: { width: 510 } },
+                    { maxWidth: 848, size: { width: 480 } },
+                    { maxWidth: 820, size: { width: 450 } },
+                    { maxWidth: 680, size: { width: 420 } },
+                    { maxWidth: 640, size: { width: 390 } },
+                    { maxWidth: 612, size: { width: 360 } },
+                    { maxWidth: 560, size: { width: 330 } },
+                    { maxWidth: 520, size: { width: 300 } },
+                    { maxWidth: 430, size: { width: 220 } }
                   ]}
                 />
                 <figcaption>
@@ -255,13 +247,13 @@ const StructureAndMethod = () => {
                 src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/CleanArchitecture.jpg?alt=media'
                 alt='Ejemplo de Arquitectura Limpia.'
                 responsive={[
-                  { size: { width: 680, height: 486 } },
-                  { maxWidth: 1280, size: { width: 600, height: 428 } },
-                  { maxWidth: 1120, size: { width: 520, height: 372 } },
-                  { maxWidth: 1080, size: { width: 460, height: 328 } },
-                  { maxWidth: 900, size: { width: 380, height: 272 } },
-                  { maxWidth: 680, size: { width: 300, height: 212 } },
-                  { maxWidth: 478, size: { width: 240, height: 172 } }
+                  { size: { width: 680 } },
+                  { maxWidth: 1280, size: { width: 600 } },
+                  { maxWidth: 1120, size: { width: 520 } },
+                  { maxWidth: 1080, size: { width: 460 } },
+                  { maxWidth: 900, size: { width: 380 } },
+                  { maxWidth: 680, size: { width: 300 } },
+                  { maxWidth: 478, size: { width: 240 } }
                 ]}
               />
               <figcaption>Ejemplo de Arquitectura Limpia.</figcaption>
@@ -425,11 +417,195 @@ const StructureAndMethod = () => {
                 </figure>
               </li>
               <li className='code'>
-                Integrar Supabase en el servidor.
-                {/* <script src='https://gist.github.com/AnthonyLzq/7d1cfeda389b7f5f38b62bd2640a32ba.js'></script> */}
-                <Highlight className='language-typescript'>
-                  {supabaseScript}
-                </Highlight>
+                Integrar Supabase en el servidor
+                <Gist id='7d1cfeda389b7f5f38b62bd2640a32ba' />
+              </li>
+            </ol>
+          </p>
+          <h3 className='long'>
+            Implementación del Servidor MQTT utilizando <code>MQTT.js</code>
+          </h3>
+          <p>
+            Para realizar esta implementación necesitamos las credenciales que
+            obtuvimos al momento de crear nuestro <i>cluster</i> de HiveMQ, el
+            usuario y contraseña, además de esto, necesitamos el <i>host</i> y
+            el puerto donde está <i>corriendo</i> nuestro <i>cluster</i>. Con
+            esto podemos instanciar nuestro client MQTT de la siguiente manera:
+            <Gist id='23e8c8e7c9d15ad720ba651fce325975' />
+            Una vez hecho esto, ya tenemos el cliente de MQTT disponible en
+            nuestro servidor. Ahora podemos definir una ruta, esta será una
+            función que permitirá que nuestro cliente escuche únicamente a un
+            <i>topic</i> y ejecute una función cuando llegue un mensaje en ese
+            <i>topic</i>, podemos un ejemplo de una ruta a continuación:
+            <Gist id='ff99d1dcff9e127dada42cfbca401c71' />
+            Finalmente, podemos registrar nuestra ruta utilizando nuestro
+            cliente de MQTT de la siguiente manera:
+            <Gist id='68251346d1cec916ca86823d0560334e' />
+          </p>
+          <h3 className='long'>
+            Implementación de la API de Twilio en el Servidor
+          </h3>
+          <p>
+            El primer paso para implementar la API de Twilio en nuestro servidor
+            es crear una cuenta en Twilio, de la siguiente manera:
+            <figure>
+              <Image
+                src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/twilio_1.png?alt=media'
+                alt='Registro en Twilio.'
+                responsive={[
+                  { size: { width: 600 } },
+                  { maxWidth: 1280, size: { width: 540 } },
+                  { maxWidth: 1080, size: { width: 480 } },
+                  { maxWidth: 956, size: { width: 400 } },
+                  { maxWidth: 680, size: { width: 360 } },
+                  { maxWidth: 600, size: { width: 270 } },
+                  { maxWidth: 500, size: { width: 240 } }
+                ]}
+              />
+              <figcaption>Registro en Twilio.</figcaption>
+            </figure>
+            Una vez hecho esto, podemos crear un proyecto en Twilio y comprar un
+            número de teléfono, esta parte no se detallará, pero una vez
+            completada debemos crear <i>templates</i> de mensajes, tal como se
+            ve en la siguiente figura:
+            <figure>
+              <Image
+                src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/twilio_2.png?alt=media'
+                alt='"Templates" de mensajes en Twilio.'
+                responsive={[
+                  { size: { width: 900 } },
+                  { maxWidth: 1720, size: { width: 820 } },
+                  { maxWidth: 1680, size: { width: 800 } },
+                  { maxWidth: 1596, size: { width: 750 } },
+                  { maxWidth: 1480, size: { width: 720 } },
+                  { maxWidth: 1420, size: { width: 700 } },
+                  { maxWidth: 1376, size: { width: 660 } },
+                  { maxWidth: 1320, size: { width: 630 } },
+                  { maxWidth: 1280, size: { width: 600 } },
+                  { maxWidth: 1210, size: { width: 570 } },
+                  { maxWidth: 1180, size: { width: 540 } },
+                  { maxWidth: 1120, size: { width: 510 } },
+                  { maxWidth: 900, size: { width: 480 } },
+                  { maxWidth: 780, size: { width: 450 } },
+                  { maxWidth: 640, size: { width: 400 } },
+                  { maxWidth: 612, size: { width: 370 } },
+                  { maxWidth: 560, size: { width: 330 } },
+                  { maxWidth: 520, size: { width: 300 } },
+                  { maxWidth: 430, size: { width: 250 } }
+                ]}
+              />
+              <figcaption>
+                "<i>Templates</i>" de mensajes en Twilio.
+              </figcaption>
+            </figure>
+            Luego de haber terminado esta parte, debemos instanciar un cliente
+            de Twilio en nuestro servidor, para esto necesitaremos las keys{' '}
+            <code>ACCOUNT_SID</code> y <code>AUTH_TOKEN</code> que Twilio nos
+            provee, de la siguiente manera:
+            <Gist id='c3dab044f9fde67d71bc5399121686bc' />
+            Una vez creado nuestro cliente, podemos crear una función que nos
+            permita enviar mensajes de <i>WhatsApp</i>, como se puede apreciar
+            en el siguiente ejemplo:
+            <Gist id='47d963d4a2fadc59cc7ab0774609c833' />
+            Una vez implementada el cliente de Twilio en nuestro servidor ya
+            podemos hacer enviar la foto tomada hasta nuestro usuario final.
+            Este proceso se detalla mediante el siguiente diagrama de flujo:
+            <figure>
+              <Image
+                src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/mapa3.png?alt=media'
+                alt='Diagrama de Flujo del caso de uso Envío de foto por WhatsApp.'
+                responsive={[
+                  { size: { width: 680 } },
+                  { maxWidth: 1280, size: { width: 600 } },
+                  { maxWidth: 1120, size: { width: 520 } },
+                  { maxWidth: 1080, size: { width: 460 } },
+                  { maxWidth: 900, size: { width: 380 } },
+                  { maxWidth: 680, size: { width: 300 } },
+                  { maxWidth: 478, size: { width: 240 } }
+                ]}
+              />
+              <figcaption>
+                Diagrama de Flujo del caso de uso Envío de foto por WhatsApp.
+              </figcaption>
+            </figure>
+          </p>
+        </article>
+        <article>
+          <h2>Modelo de Reconocimiento Facial</h2>
+          <p>
+            Utilizaremos la librería Human para la detección y comparación de
+            rostros, esta librería utiliza un modelo llamado{' '}
+            <i>MediaPipe BlazeFace Back variation</i>, el cual es una variante
+            del modelo <i>MediaPipe Face Detection</i>.
+            <br />
+            El proceso de detección y comparación de rostros se detalla mediante
+            la siguiente máquina de estados:
+            <figure>
+              <Image
+                src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/state_machine.png?alt=media'
+                alt='Máquina de estados del Reconocimiento de Facial.'
+                responsive={[
+                  { size: { width: 680 } },
+                  { maxWidth: 1280, size: { width: 600 } },
+                  { maxWidth: 1120, size: { width: 520 } },
+                  { maxWidth: 1080, size: { width: 460 } },
+                  { maxWidth: 900, size: { width: 380 } },
+                  { maxWidth: 680, size: { width: 300 } },
+                  { maxWidth: 478, size: { width: 240 } }
+                ]}
+              />
+              <figcaption>
+                Máquina de estados del Reconocimiento de Facial.
+              </figcaption>
+            </figure>
+            El siguiente código es un ejemplo de cómo podría darse este proceso:
+            <Gist id='e06f9950b89dee1ecc9812efc1f15607' />
+          </p>
+        </article>
+        <article>
+          <h2>Métricas</h2>
+          <h3>Latencia</h3>
+          <p>
+            Definiremos la latencia como el retraso en la comunicación entre 2
+            sistemas, la mediremos en unidades de tiempo (segundos), y en el
+            presente proyecto utilizaremos 3 tipos de latencias las cuales
+            detallaremos a continuación:
+            <ol>
+              <li>
+                Latencia de Foto. Esta latencia será definida como el tiempo que
+                se demora nuestro cliente IoT en tomar una foto utilizando la
+                librería desarrollada para la presente tesis,
+                <code>@anthonylzq/node-webcam</code>.
+              </li>
+              <li>
+                Latencia MQTT. Esta latencia será definida como el tiempo que se
+                demora el nuestro servidor IoT en recibir la foto procesada
+                desde el cliente IoT utilizando el protocolo MQTT.
+              </li>
+              <li>
+                Latencia de Detección. Esta latencia será definida como el
+                tiempo que se demora nuestro modelo de Reconocimiento Facial en
+                detectar una coincidencia o no, entre las fotos previamente
+                almacenadas y la foto recibida.
+              </li>
+            </ol>
+          </p>
+          <h3>Coeficiente de Identificación</h3>
+          <p>
+            Los resultados de detección pueden variar por diferentes factores,
+            incluso cuando la foto se trata de la misma persona, calcularemos el
+            coeficiente de identificación como la cantidad de casos
+            identificados exitosamente sobre la cantidad de casos totales. De la
+            siguiente manera:
+            <ol>
+              <li>
+                Casos identificados exitosamente: <Equation value='Ce' />
+              </li>
+              <li>
+                Casos totales: <Equation value='Ct' />
+              </li>
+              <li>
+                Coeficiente de Identificación: <Equation value='Ci = Ce/Ct' />
               </li>
             </ol>
           </p>
