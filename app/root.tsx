@@ -27,7 +27,8 @@ import presentationStyles from './styles/presentation.css'
 import contentStyles from './styles/content.css'
 import introductionStyles from './styles/introduction.css'
 import previousKnowledgeStyles from './styles/previousKnowledge.css'
-import structureAndMethod from './styles/structureAndMethod.css'
+import structureAndMethodStyles from './styles/structureAndMethod.css'
+import resultsStyles from './styles/results.css'
 
 export const links: LinksFunction = () => [
   {
@@ -42,7 +43,8 @@ export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: contentStyles },
   { rel: 'stylesheet', href: introductionStyles },
   { rel: 'stylesheet', href: previousKnowledgeStyles },
-  { rel: 'stylesheet', href: structureAndMethod },
+  { rel: 'stylesheet', href: structureAndMethodStyles },
+  { rel: 'stylesheet', href: resultsStyles },
   { rel: 'stylesheet', href: Nunito300 },
   { rel: 'stylesheet', href: Nunito400 },
   { rel: 'stylesheet', href: Nunito500 },

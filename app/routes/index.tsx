@@ -1,3 +1,5 @@
+import type { LoaderFunction } from '@remix-run/node'
+import { useLoaderData } from '@remix-run/react'
 import { Keyboard, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
@@ -6,10 +8,19 @@ import {
   Introduction,
   Presentation,
   PreviousKnowledge,
+  Results,
   StructureAndMethod
 } from '~/components'
+import type { Data } from '~/utils'
+import { fetchData } from '~/utils'
+
+export const loader: LoaderFunction = async () => {
+  return fetchData()
+}
 
 const App = () => {
+  const data = useLoaderData<Data>()
+
   return (
     <Swiper
       spaceBetween={30}
@@ -36,6 +47,9 @@ const App = () => {
       </SwiperSlide>
       <SwiperSlide>
         <StructureAndMethod />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Results data={data} />
       </SwiperSlide>
     </Swiper>
   )

@@ -1,0 +1,32 @@
+main.results {
+  text-align: start;
+  width: var(--width-60);
+}
+
+main.results section {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 1080px) {
+  main.results {
+    width: var(--width-70);
+  }
+
+  main.results section {
+    height: 64vh;
+    overflow-y: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main.results {
+    width: var(--width-80);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main.results {
+    width: var(--width-90);
+  }
+}
