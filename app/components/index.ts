@@ -1,6 +1,6 @@
 export * from './ConclusionsAndFutureWork'
 export * from './Content'
-export * from './Introduction'
+export * from './IntroductionAndObjectives'
 export * from './Presentation'
 export * from './PreviousKnowledge'
 export * from './Results'

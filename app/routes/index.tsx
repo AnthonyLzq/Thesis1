@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import {
   ConclusionsAndFutureWork,
   Content,
-  Introduction,
+  IntroductionAndObjectives,
   Presentation,
   PreviousKnowledge,
   Results,
@@ -41,7 +41,7 @@ const App = () => {
         <Content />
       </SwiperSlide>
       <SwiperSlide>
-        <Introduction />
+        <IntroductionAndObjectives />
       </SwiperSlide>
       <SwiperSlide>
         <PreviousKnowledge />

@@ -25,7 +25,7 @@ import NunitoSans700 from '@fontsource/nunito-sans/700.css'
 import globalStyles from './styles/global.css'
 import presentationStyles from './styles/presentation.css'
 import contentStyles from './styles/content.css'
-import introductionStyles from './styles/introduction.css'
+import introductionAndObjectivesStyles from './styles/introductionAndObjectives.css'
 import previousKnowledgeStyles from './styles/previousKnowledge.css'
 import structureAndMethodStyles from './styles/structureAndMethod.css'
 import resultsStyles from './styles/results.css'
@@ -42,7 +42,7 @@ export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: globalStyles },
   { rel: 'stylesheet', href: presentationStyles },
   { rel: 'stylesheet', href: contentStyles },
-  { rel: 'stylesheet', href: introductionStyles },
+  { rel: 'stylesheet', href: introductionAndObjectivesStyles },
   { rel: 'stylesheet', href: previousKnowledgeStyles },
   { rel: 'stylesheet', href: structureAndMethodStyles },
   { rel: 'stylesheet', href: resultsStyles },
