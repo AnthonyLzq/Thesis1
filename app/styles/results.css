@@ -8,6 +8,49 @@ main.results section {
   overflow-y: auto;
 }
 
+main.results h2 {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  margin: 0px;
+  height: 60px;
+  background-color: #fff;
+}
+
+main.results h1, h2 {
+  width: var(--width-100);
+}
+
+main.results p, ol {
+  font-size: 1.2em;
+  font-weight: 300;
+  z-index: 1;
+  margin-top: 0;
+  width: var(--width-100);
+}
+
+main.results ol {
+  display: grid;
+  gap: 1.5em;
+}
+
+main.results ol li {
+  width: 96%;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+main.results ol li:before {
+  content: counter(item);
+  margin-right: 5px;
+  font-size: var(--width-80);
+  background-color: #222;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
 @media screen and (max-width: 1080px) {
   main.results {
     width: var(--width-70);

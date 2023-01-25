@@ -1,5 +1,8 @@
 import type { FC } from 'react'
+
+import { Histogram } from './Histogram'
 import type { Data } from '~/utils'
+import { Equation } from 'react-equation'
 
 type ResultsProps = {
   data: Data
@@ -7,7 +10,6 @@ type ResultsProps = {
 
 const Results: FC<ResultsProps> = props => {
   const { data } = props
-  console.log('data', data)
 
   return (
     <main className='results'>
@@ -27,6 +29,11 @@ const Results: FC<ResultsProps> = props => {
               consistentes, menores en su mayoría a 1.3s, tal como se muestra en
               la siguiente gráfica.
             </p>
+            <Histogram
+              data={data.takePhotoData}
+              label='Latencia de Foto'
+              titles={['Tiempo (s)', 'Frecuencia']}
+            />
           </article>
           <article>
             <h3>Latencia MQTT</h3>
@@ -36,6 +43,11 @@ const Results: FC<ResultsProps> = props => {
               MQTT es también bastante consistente y se mantuvo en promedio a
               2.47s, tal como se muestra en la siguiente gráfica.
             </p>
+            <Histogram
+              data={data.receivePhotoData}
+              label='Latencia MQTT'
+              titles={['Tiempo (s)', 'Frecuencia']}
+            />
           </article>
           <article>
             <h3>Latencia de Detección</h3>
@@ -44,6 +56,11 @@ const Results: FC<ResultsProps> = props => {
               Latencia de Detección se sigue manteniendo consistente y se
               mantuvo en promedio a 2.16s.
             </p>
+            <Histogram
+              data={data.matchData.map(data => data.time)}
+              label='Latencia MQTT'
+              titles={['Tiempo (s)', 'Frecuencia']}
+            />
           </article>
         </article>
         <article>
@@ -52,6 +69,20 @@ const Results: FC<ResultsProps> = props => {
             De los 350 datos tomados como referencia para la identificación de
             rostros, se obtuvieron los siguientes resultados:
           </p>
+          <ol>
+            <li>
+              339 de los 350 casos fueron casos de éxito, es decir, encontraron
+              una coincidencia entre entre los rostros.
+            </li>
+            <li>
+              11 de los 350 casos fueron casos de fracaso, es decir, no
+              encontraron una coincidencia entre entre los rostros.
+            </li>
+            <li>
+              El Coeficiente de Identificación resultante fue:{' '}
+              <Equation value='Ci = 0.969' />.
+            </li>
+          </ol>
         </article>
       </section>
     </main>
