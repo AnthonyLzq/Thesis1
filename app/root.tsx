@@ -29,6 +29,7 @@ import introductionStyles from './styles/introduction.css'
 import previousKnowledgeStyles from './styles/previousKnowledge.css'
 import structureAndMethodStyles from './styles/structureAndMethod.css'
 import resultsStyles from './styles/results.css'
+import conclusionsAndFutureWorkStyles from './styles/conclusionsAndFutureWork.css'
 
 export const links: LinksFunction = () => [
   {
@@ -45,6 +46,7 @@ export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: previousKnowledgeStyles },
   { rel: 'stylesheet', href: structureAndMethodStyles },
   { rel: 'stylesheet', href: resultsStyles },
+  { rel: 'stylesheet', href: conclusionsAndFutureWorkStyles },
   { rel: 'stylesheet', href: Nunito300 },
   { rel: 'stylesheet', href: Nunito400 },
   { rel: 'stylesheet', href: Nunito500 },

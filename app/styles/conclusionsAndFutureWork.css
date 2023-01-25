@@ -1,0 +1,87 @@
+main.conclusions-and-future-work {
+  text-align: start;
+  width: var(--width-60);
+}
+
+main.conclusions-and-future-work section {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+main.conclusions-and-future-work h2 {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  margin: 0px;
+  height: 60px;
+  background-color: #fff;
+}
+
+main.conclusions-and-future-work h1, h2 {
+  width: var(--width-100);
+}
+
+main.conclusions-and-future-work p, ol {
+  font-size: 1.2em;
+  font-weight: 300;
+  z-index: 1;
+  margin-top: 0;
+  width: var(--width-100);
+}
+
+main.conclusions-and-future-work ol {
+  display: grid;
+  gap: 1.5em;
+}
+
+main.conclusions-and-future-work ol li {
+  width: 96%;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+main.conclusions-and-future-work ol li:before {
+  content: counter(item);
+  margin-right: 5px;
+  font-size: var(--width-80);
+  background-color: #222;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+main.conclusions-and-future-work figure {
+  display: grid;
+  place-items: center;
+  z-index: 1;
+}
+
+main.conclusions-and-future-work figcaption {
+  font-size: 0.85em;
+  font-weight: 300;
+  padding-top: 4px;
+}
+
+@media screen and (max-width: 1080px) {
+  main.conclusions-and-future-work {
+    width: var(--width-70);
+  }
+
+  main.conclusions-and-future-work section {
+    height: 64vh;
+    overflow-y: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main.conclusions-and-future-work {
+    width: var(--width-80);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main.conclusions-and-future-work {
+    width: var(--width-90);
+  }
+}

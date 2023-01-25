@@ -4,6 +4,7 @@ import { Keyboard, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import {
+  ConclusionsAndFutureWork,
   Content,
   Introduction,
   Presentation,
@@ -50,6 +51,9 @@ const App = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Results data={data} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ConclusionsAndFutureWork />
       </SwiperSlide>
     </Swiper>
   )
