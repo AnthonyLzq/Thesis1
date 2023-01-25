@@ -88,7 +88,7 @@ const StructureAndMethod = () => {
           </h2>
           <article>
             <h3 className='long'>
-              Despliegue del <i>broker</i> <code>MQTT</code> usando HiveMQ
+              Despliegue del <i>broker</i> <code>MQTT</code> usando HiveMQ [10]
             </h3>
             <p>
               El segundo paso es crear una cuenta en la consola de HiveMQ y
@@ -156,7 +156,7 @@ const StructureAndMethod = () => {
               Una vez configurado nuestro <i>broker</i> MQTT, podemos
               conectarnos a él desde nuestro dispositivo utilizando las
               credenciales que hemos configurado anteriormente. Para esto
-              haremos uso de la librería <code>Mqtt.js</code>.
+              haremos uso de la librería <code>Mqtt.js</code> [11].
             </p>
           </article>
         </article>
@@ -168,20 +168,20 @@ const StructureAndMethod = () => {
               web
             </h3>
             <p>
-              En <code>NPM</code> existen en la actualidad 28 librerías las
+              En <code>NPM</code> [12] existen en la actualidad 28 librerías las
               cuales implementan una abstracción de algún software que permite
               tomar fotos utilizando alguna webcam incorporada (o externa) del
               sistema. Lamentablemente ninguna de estas es compatible con{' '}
               <code>TS</code>, o se encuentra muy desactualizada, implementando
-              versiones de <code>EcmaScript</code> (<code>ES</code>) muy
+              versiones de <code>EcmaScript</code> (<code>ES</code>) [13] muy
               antiguas. Es por esto que nos vimos en la necesidad de re
               implementar una de las librerías más populares y estables (cuya
               última actualización fue hace menos de un año), hacerla compatible
-              con <code>TS</code> y luego publicarla en <code>NPM</code> para su
-              posterior uso. Además de así contribuir con la comunidad Open
-              Source.
+              con <code>TypeScript</code> (<code>TS</code>) y luego publicarla
+              en <code>NPM</code> para su posterior uso. Además de así
+              contribuir con la comunidad Open Source.
               <br />
-              Se eligió la librería <code>node-webcam</code> para ser re
+              Se eligió la librería <code>node-webcam</code> [14] para ser re
               implementada, ya que es una de las más populares (175 estrellas en
               GitHub y 1000 descargas semanales en <code>NPM</code>) y estables
               (última actualización hace 6 meses), al menos comparadas con
@@ -194,21 +194,21 @@ const StructureAndMethod = () => {
               disponibilizaron las principales funcionalidades que node-webcam
               utilizaba, y se migró la versión de <code>ES</code> a una más
               moderna. Luego de finalizar al migración, el nuevo paquete fue
-              publicado bajo el nombre: <code>@anthonylzq/node-webcam</code>,
-              siguiendo las reglas de nomenclatura de <code>NPM</code>, para
-              luego ser utilizado en nuestro Cliente <code>MQTT</code>.
+              publicado bajo el nombre: <code>@anthonylzq/node-webcam</code>{' '}
+              [15], siguiendo las reglas de nomenclatura de <code>NPM</code>,
+              para luego ser utilizado en nuestro Cliente <code>MQTT</code>.
             </p>
           </article>
           <article>
             <h3 className='long'>Implementación del cliente MQTT</h3>
             <p>
               Para simplificar este proceso, asumiremos que tenemos un usuario
-              registrado en una base de datos alojada en <i>Supabase</i>. En
-              esta base de datos tendremos registrado el nombre del usuario y su
-              número telefónico para hacerle llegar las notificaciones.
+              registrado en una base de datos alojada en <i>Supabase</i> [16].
+              En esta base de datos tendremos registrado el nombre del usuario y
+              su número telefónico para hacerle llegar las notificaciones.
               <br />
-              Nuestra <i>Raspberry PI</i> ejecutará un script en Node.js llamado
-              <i>sendPicture</i> el cual utilizara la librería{' '}
+              Nuestra <i>Raspberry PI</i> ejecutará un script en Node.js [17]
+              llamado <i>sendPicture</i> el cual utilizara la librería{' '}
               <code>@anthonylzq/node-webcam</code> y tomará una foto en formato
               png, la transformará en base64 y la enviará a nuestro{' '}
               <i>broker</i> MQTT junto con otra metadata necesaria para el
@@ -260,9 +260,9 @@ const StructureAndMethod = () => {
                 { maxWidth: 478, size: { width: 240 } }
               ]}
             />
-            <figcaption>Ejemplo de Arquitectura Limpia.</figcaption>
+            <figcaption>Ejemplo de Arquitectura Limpia [18].</figcaption>
           </figure>
-          <h3>Servidor HTTP usando Fastify</h3>
+          <h3>Servidor HTTP usando Fastify [19]</h3>
           <p>
             <code>Fastify</code> al ser un <i>framework</i> de{' '}
             <code>Node.js</code> nos ayudará a construir nuestra API, la cual
@@ -561,10 +561,10 @@ const StructureAndMethod = () => {
         <article>
           <h2>Modelo de Reconocimiento Facial</h2>
           <p>
-            Utilizaremos la librería Human para la detección y comparación de
-            rostros, esta librería utiliza un modelo llamado{' '}
+            Utilizaremos la librería Human [20] para la detección y comparación
+            de rostros, esta librería utiliza un modelo llamado{' '}
             <i>MediaPipe BlazeFace Back variation</i>, el cual es una variante
-            del modelo <i>MediaPipe Face Detection</i>.
+            del modelo <i>MediaPipe Face Detection</i> [21].
             <br />
             El proceso de detección y comparación de rostros se detalla mediante
             la siguiente máquina de estados:

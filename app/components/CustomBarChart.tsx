@@ -36,7 +36,9 @@ const CustomBarChart: FC<CustomBarChartProps> = props => {
             label,
             data: dataForChart,
             borderColor: 'rgba(255, 99, 132, 1)',
-            backgroundColor: 'rgba(255, 99, 132, 0.2)'
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderWidth: 0.2,
+            barThickness: 'flex'
           }
         ]
       }}

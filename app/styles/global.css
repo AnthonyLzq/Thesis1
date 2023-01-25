@@ -43,6 +43,11 @@ iframe {
   margin-top: 1em;
 }
 
+span {
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 4px;

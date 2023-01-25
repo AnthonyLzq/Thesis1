@@ -9,6 +9,7 @@ import {
   IntroductionAndObjectives,
   Presentation,
   PreviousKnowledge,
+  References,
   Results,
   StructureAndMethod
 } from '~/components'
@@ -54,6 +55,9 @@ const App = () => {
       </SwiperSlide>
       <SwiperSlide>
         <ConclusionsAndFutureWork />
+      </SwiperSlide>
+      <SwiperSlide>
+        <References />
       </SwiperSlide>
     </Swiper>
   )

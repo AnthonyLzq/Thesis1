@@ -10,21 +10,22 @@ const PreviousKnowledge = () => {
           <p>
             La tecnología de Reconocimiento Facial es una tecnología biométrica,
             que se basa en la identificación de los rasgos faciales de una
-            persona. Por lo general, se usa como una forma de seguridad, por
+            persona [2]. Por lo general, se usa como una forma de seguridad, por
             ejemplo, para identificar a las personas en una multitud o para
             verificar la identidad de una persona que intenta acceder a un
             edificio, cuenta de correo, bancaria, etc.
             <br />
             <br />
-            Comúnmente el proceso de Reconocimiento Facial consta de 4 pasos:
+            Comúnmente el proceso de Reconocimiento Facial consta de 4 pasos
+            [3]:
             <br />
           </p>
           <ol>
             <li>
               Detección de rostros en una imagen. Esto se puede hacer usando una
-              variedad de métodos, incluidas las cascadas de Haar, los patrones
-              binarios locales (LBP) y el aprendizaje profundo. Podemos ver un
-              ejemplo de esto en la siguiente figura:
+              variedad de métodos, incluidas las cascadas de Haar [4, 5], los
+              patrones binarios locales (LBP) [6] y el aprendizaje profundo [7].
+              Podemos ver un ejemplo de esto en la siguiente figura:
               <figure>
                 <Image
                   src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/step1.png?alt=media'
@@ -47,19 +48,21 @@ const PreviousKnowledge = () => {
                     { maxWidth: 348, size: { width: 180 } }
                   ]}
                 />
-                <figcaption>Ejemplo de Identificación de Rostros.</figcaption>
+                <figcaption>
+                  Ejemplo de Identificación de Rostros [8].
+                </figcaption>
               </figure>
             </li>
             <li>
               Análisis de rostros. Esto generalmente consiste en identificar las
               propiedades geométricas claves del rostro. El objetivo es
               identificar puntos de referencia que son esenciales para
-              distinguir un rostro. Podemos ver un ejemplo de esto en la
+              distinguir un rostro [3]. Podemos ver un ejemplo de esto en la
               siguiente figura:
               <figure>
                 <Image
                   src='https://firebasestorage.googleapis.com/v0/b/cc-planinfoextractor.appspot.com/o/step2.png?alt=media'
-                  alt='Paso 1 del proceso de Reconocimiento Facial'
+                  alt='Paso 2 del proceso de Reconocimiento Facial'
                   responsive={[
                     { size: { width: 508 } },
                     { maxWidth: 1120, size: { width: 380 } },
@@ -78,7 +81,7 @@ const PreviousKnowledge = () => {
                     { maxWidth: 348, size: { width: 180 } }
                   ]}
                 />
-                <figcaption>Ejemplo de Análisis de Rostros.</figcaption>
+                <figcaption>Ejemplo de Análisis de Rostros [8].</figcaption>
               </figure>
             </li>
             <li>
@@ -87,12 +90,12 @@ const PreviousKnowledge = () => {
               referencia identificados en el paso anterior. Estos datos
               numéricos son conocidos, generalmente, como <i>"faceprint"</i>{' '}
               (huella facial). Análogamente a las huellas digitales, las huellas
-              faciales son únicas para cada rostro.
+              faciales son únicas para cada rostro [3].
             </li>
             <li>
               Comparación. Finalmente, una vez calculada la huella facial del
               rostro, esta se compara contra un dataset de huellas faciales
-              previamente registradas para encontrar alguna coincidencia.
+              previamente registradas para encontrar alguna coincidencia [3].
             </li>
           </ol>
         </article>
@@ -108,7 +111,7 @@ const PreviousKnowledge = () => {
             administrador remoto que necesita hablar con un técnico, o un dron
             agrícola que informa sobre las condiciones del cultivo. Esto implica
             desarrollar herramientas y plataformas flexibles para crear
-            servicios y soluciones basadas en la nube y en el lugar.
+            servicios y soluciones basadas en la nube y en el lugar [9].
             <br />
             Entre las tecnologías que permiten la comunicación en tiempo real
             podemos mencionar: WebSockets, SignalR, WebRTC, MQTT, etc. En este
