@@ -3,6 +3,7 @@ import type { FC } from 'react'
 import { Histogram } from './Histogram'
 import type { Data } from '~/utils'
 import { Equation } from 'react-equation'
+import { CustomBarChart } from './CustomBarChart'
 
 type ResultsProps = {
   data: Data
@@ -83,6 +84,12 @@ const Results: FC<ResultsProps> = props => {
               <Equation value='Ci = 0.969' />.
             </li>
           </ol>
+          <CustomBarChart
+            label='Coeficiente de Identificación'
+            labels={['Éxito', 'Fracaso']}
+            data={data.matchData.map(data => data.match)}
+            titles={['', 'Frecuencia']}
+          />
         </article>
       </section>
     </main>

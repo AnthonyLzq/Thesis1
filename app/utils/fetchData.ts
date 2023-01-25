@@ -21,7 +21,7 @@ const fetchData = async () => {
     const [match, time] = line.split(',')
 
     return {
-      match: Boolean(match),
+      match: Boolean(parseInt(match)),
       time: parseFloat(time)
     }
   })
