@@ -29,7 +29,7 @@ const Presentation = () => {
           month: 'long',
           year: 'numeric',
           day: 'numeric'
-        }).format(new Date())}
+        }).format(new Date(2022, 0, 26))}
       </p>
     </main>
   )
